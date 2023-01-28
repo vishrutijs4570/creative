@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chessboard</title>
+    <style>
+        .maincontainer{
+            border: 1px solid;
+        }
+        div.1row{
+            float:right;
+        }
+        .white{
+            background-color: rgb(254, 254, 254);
+            height: 175px;
+            width: 175px;
+            float: left;
+        }
+        .white:hover{
+           background: rgb(149, 146, 146); 
+           box-sizing: 185px;
+           box-shadow: inset;
+           /* transform: translate(5px,5px) */
+        }
+        .black{
+            background-color: black;
+            height: 175px;
+            width: 175px;
+            float: left;
+        }
+        .black:hover{
+           background: rgb(111, 93, 93); 
+           box-sizing: 185px;
+           box-shadow: inset;
+           /* transform: translate(5px,5px) */
+        }
+        
+    </style>
+
+
+
+</head>
+<body>
+    <div class="maincontainer">
+        <div class="1row">
+            <div class="white"></div>
+            <div class="black"></i></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+        </div>
+        <div class="2row">
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+        </div>
+        <div class="3row">
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+        </div>
+        <div class="4row">
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+        </div>
+        <div class="5row">
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+        </div>
+        <div class="6row">
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+        </div>
+        <div class="7row">
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+        </div>
+        <div class="8row">
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+        </div>
+        
+
+    </div>
+</body>
+</html>
